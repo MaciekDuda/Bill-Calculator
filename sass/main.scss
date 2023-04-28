@@ -10,11 +10,84 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background-color: rgb(233, 233, 233);
+	background-color: #002333;
 }
 
 .wrapper {
 	width: 600px;
 	background-color: #fff;
 	box-shadow: 0 0 10px #000;
+}
+
+.top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 30px;
+	background-color: #159a9c;
+	color: #ffffff;
+
+	h1 {
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+}
+
+.bottom {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 25px;
+	justify-content: center;
+	align-items: flex-start;
+
+	label,
+	input,
+	select {
+        font-size: 1.2rem;
+		margin-bottom: 15px;
+        width: 100%;
+	}
+
+	input,
+	select {
+		border: 1px solid #b4bec9;
+		border-radius: 5px;
+        padding: 5px;
+	}
+
+	.count {
+		align-self: center;
+		width: 40%;
+		background-color: #159a9c;
+		padding: 1em;
+		margin: 25px 0;
+		font-size: 1rem;
+		color: #ffffff;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		cursor: pointer;
+        transition: background-color .3s;
+
+        &:hover {
+            background-color: #DEEFE7;
+            color: #002333;
+        }
+	}
+
+    .error {
+        display: none;
+        font-size: 1.2rem;
+        color: #002333;
+    }
+
+	.cost-info {
+		display: none;
+        font-size: 1.2rem;
+        color: #002333;
+
+		.cost {
+			font-weight: bold;
+		}
+	}
 }

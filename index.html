@@ -21,6 +21,33 @@
 
     <div class="wrapper">
 
+        <div class="top">
+            <h1>Bill-Calculator</h1>
+            <p>Podziel swój rachunek ze znajomymi</p>
+        </div>
+
+        <div class="bottom">
+            <label for="price">Kwota do zapłaty:</label>
+            <input type="number" id="price">
+
+            <label for="people">Ilość osób:</label>
+            <input type="number" id="people">
+
+            <label for="tip">Napiwek:</label>
+           <select name="" id="tip">
+            <option value="0" disabled selected>- Wybierz napiwek -</option>
+            <option value="0.05">5%</option>
+            <option value="0.1">10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.2">20%</option>
+           </select>
+
+           <button class="count">Oblicz</button>
+           <p class="error"></p>
+           <p class="cost-info">Powinniście złożyć się po: <span class="cost">10</span>zł.</p>
+
+        </div>
+
 
     </div>
     
