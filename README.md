@@ -1,7 +1,7 @@
 
 # Bill Calculator 
 
-Calculator that helps split restaurant bill and tips between you and your friends.
+Calculator that helps split restaurant bill and tip between you and your friends.
 
 
 ## Authors
